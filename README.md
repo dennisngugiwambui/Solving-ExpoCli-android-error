@@ -18,7 +18,7 @@ Wireless LAN adapter Wi-Fi:
    Subnet Mask . . . . . . . . . . . : 255.255.255.0
    Default Gateway . . . . . . . . . : 192.168.0.1
    ```
- Now from this select the #IPv4 Address. . . . . . . . . . . : 192.168.0.16
+ Now from this select the ```IPv4 Address. . . . . . . . . . . : 192.168.0.16```
  now you can run the following command in the powershell:
  ```setx /M REACT_NATIVE_PACKAGER_HOSTNAME 192.168.0.16```
  Now close the terminal and then reopen the terminal again and run
